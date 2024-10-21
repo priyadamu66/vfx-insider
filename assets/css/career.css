@@ -1,0 +1,52 @@
+.jumping-text {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    animation: jumpIn 1s ease-out;
+}
+
+.jumping-text span {
+    display: inline-block;
+    animation: jump 0.5s ease forwards;
+    animation-delay: calc(0.1s * var(--i));
+    position: relative;
+}
+/*for text alignment*/
+.wrapper.style5 .inner {
+    text-align: left;
+    text-align: justify;
+
+}
+
+.career-p1 {
+    text-align: left;
+    color: white;
+    line-height: 1.6;
+}
+
+.career-p1 h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes jumpIn {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

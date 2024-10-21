@@ -1,0 +1,30 @@
+.job1-head{
+    background-color: #29375a ;
+    color: white;
+}
+.job1-head b{
+   color: white;
+   font-size: medium;
+}
+.job-des{
+    color: white;
+}
+.res,.req,.pref,.app-btn{
+    color: white;
+}
+.app-btn {
+    background-color: black;
+    color: white; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;    /* Vertical centering */
+  }
+  
+  .app-btn:hover {
+    background-color: grey; /* Grey background on hover */
+  }
+  
+  

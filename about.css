@@ -1,0 +1,23 @@
+.globe-container {
+    width: 350px; /* Adjust width as needed */
+    padding: 20px;
+    background-color: #f0f0f0; /* Light background color */
+    border: 2px solid #ddd;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    text-align: center;
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .globe-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .globe-text {
+    margin-top: 15px;
+    font-size: 1em;
+    color: #333;
+  }
+  
