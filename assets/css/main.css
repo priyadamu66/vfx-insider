@@ -3554,7 +3554,59 @@ input, select, textarea {
 	}
 
 	/*navbar*/
-	
+	/* Basic styling for navigation links */
+ul.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Horizontal arrangement */
+    position: relative; /* Relative positioning for absolute children */
+}
+
+ul.nav-links li {
+    margin-right: 20px;
+    position: relative; /* Position for submenu */
+}
+
+ul.nav-links li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+/* Styling for sub-menu */
+.submenu {
+    display: none; /* Initially hidden */
+    position: absolute; /* Position it below the main menu */
+    top: 100%; /* Align to the bottom of the main item */
+    left: 0; /* Align to the left */
+    background-color: #141b2a; /* Set your desired background color */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Optional: shadow for depth */
+    z-index: 100; /* Ensure it appears above other content */
+    list-style-type: none; /* No bullets for sub-menu items */
+    padding: 10px 0; /* Spacing around sub-menu */
+}
+
+/* Show sub-menu on hover */
+ul.nav-links li:hover .submenu {
+    display: block; /* Show sub-menu when hovering over parent */
+}
+
+.submenu li {
+    padding: 5px 15px; /* Padding for sub-menu items */
+}
+
+.submenu li a {
+    color: #ffffff; /* Ensure link color is white */
+    text-decoration: none; /* Remove underline */
+}
+
+.submenu li a:hover {
+    background-color: #3a4750; /* Change background on hover */
+}
+
 /* Basic styling for navigation links */
 ul.nav-links {
     list-style-type: none;
@@ -3851,6 +3903,7 @@ head-logo{
 
 		#header.alt {
 			background: #0C0F26;
+			padding: 5px 5px 5px 5px;
 		}
 
 			#header.alt h1 {
