@@ -4165,7 +4165,7 @@ ul.nav-links li a {
 
 		#banner h1 {
 			text-transform: capitalize;
-			margin-right: -140%;
+			margin-right: -160rem;
 			font-size: 1.75em;
 			font-family: 'Montserrat'; /* New font */
 			opacity: 1;
@@ -4425,7 +4425,6 @@ ul.nav-links li a {
 
 	#main > header {
     padding: 12em 0 10em 0;
-   background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/bg.jpg");
     background-attachment: fixed; /* Keeps the background fixed while scrolling */
     background-position: center center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -4487,10 +4486,10 @@ ul.nav-links li a {
 
 		}
 
-	body.is-mobile #main > header {
+	/*body.is-mobile #main > header {
 		background-attachment: scroll;
 		background-image: url('../../images/bg.jpg');
-	}
+	}*/
 
 
 /*our core partner company*/
@@ -6133,3 +6132,518 @@ svg {
 	  font-size: 0.8em;
 	}
   }
+
+   /*generic-bg*/
+ .generic-img {
+    position: relative; /* Allows for absolute positioning of child elements if needed */
+    width: 100%; /* Ensures it takes the full width of the screen */
+    height: 50vh; /* Sets the height to the full viewport height */
+    overflow: hidden; /* Ensures that the image doesn't overflow its container */
+}
+
+.generic-img img {
+    position: absolute; /* Positions the image absolutely within the container */
+    top: 50%; /* Centers the image vertically */
+    left: 50%; /* Centers the image horizontally */
+    width: auto; /* Allows the width to adjust */
+    height: 100%; /* Fills the height of the container */
+    min-width: 100%; /* Ensures it covers the width fully */
+    transform: translate(-50%, -50%); /* Centers the image */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+
+/*services-bg-image*/
+.services-img {
+    position: relative; /* Allows for absolute positioning of child elements if needed */
+    width: 100%; /* Ensures it takes the full width of the screen */
+    height: 50vh; /* Sets the height to the full viewport height */
+    overflow: hidden; /* Ensures that the image doesn't overflow its container */
+}
+
+.services-img img {
+    position: absolute; /* Positions the image absolutely within the container */
+    top: 50%; /* Centers the image vertically */
+    left: 50%; /* Centers the image horizontally */
+    width: auto; /* Allows the width to adjust */
+    height: 100%; /* Fills the height of the container */
+    min-width: 100%; /* Ensures it covers the width fully */
+    transform: translate(-50%, -50%); /* Centers the image */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+  
+
+/*careers-bg-image*/
+.careers-img {
+    position: relative; /* Allows for absolute positioning of child elements if needed */
+    width: 100%; /* Ensures it takes the full width of the screen */
+    height: 50vh; /* Sets the height to the full viewport height */
+    overflow: hidden; /* Ensures that the image doesn't overflow its container */
+}
+
+.careers-img img {
+    position: absolute; /* Positions the image absolutely within the container */
+    top: 50%; /* Centers the image vertically */
+    left: 50%; /* Centers the image horizontally */
+    width: auto; /* Allows the width to adjust */
+    height: 100%; /* Fills the height of the container */
+    min-width: 100%; /* Ensures it covers the width fully */
+    transform: translate(-50%, -50%); /* Centers the image */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+
+/*about-bg-image*/
+.about-img {
+    position: relative; /* Allows for absolute positioning of child elements if needed */
+    width: 100%; /* Ensures it takes the full width of the screen */
+    height: 50vh; /* Sets the height to the full viewport height */
+    overflow: hidden; /* Ensures that the image doesn't overflow its container */
+}
+
+.about-img img {
+    position: absolute; /* Positions the image absolutely within the container */
+    top: 50%; /* Centers the image vertically */
+    left: 50%; /* Centers the image horizontally */
+    width: auto; /* Allows the width to adjust */
+    height: 100%; /* Fills the height of the container */
+    min-width: 100%; /* Ensures it covers the width fully */
+    transform: translate(-50%, -50%); /* Centers the image */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+
+/*contact-bg-image*/
+.contact-img {
+    position: relative; /* Allows for absolute positioning of child elements if needed */
+    width: 100%; /* Ensures it takes the full width of the screen */
+    height: 80vh; /* Sets the height to the full viewport height */
+    overflow: hidden; /* Ensures that the image doesn't overflow its container */
+}
+
+.contact-img img {
+    position: absolute; /* Positions the image absolutely within the container */
+    top: 50%; /* Centers the image vertically */
+    left: 50%; /* Centers the image horizontally */
+    width: auto; /* Allows the width to adjust */
+    height: 100%; /* Fills the height of the container */
+    min-width: 100%; /* Ensures it covers the width fully */
+    transform: translate(-50%, -50%); /* Centers the image */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+
+
+/*job-bg-image*/
+.heading {
+    position: relative; /* Allows for absolute positioning of child elements if needed */
+    width: 100%; /* Ensures it takes the full width of the screen */
+    height: 90vh; /* Sets the height to the full viewport height */
+    overflow: hidden; /* Ensures that the image doesn't overflow its container */
+}
+
+.heading img {
+    position: absolute; /* Positions the image absolutely within the container */
+    top: 50%; /* Centers the image vertically */
+    left: 50%; /* Centers the image horizontally */
+    width: auto; /* Allows the width to adjust */
+    height: 100%; /* Fills the height of the container */
+    min-width: 100%; /* Ensures it covers the width fully */
+    transform: translate(-50%, -50%); /* Centers the image */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+
+/*job1-bg-image*/
+.job1-image {
+    position: relative; /* Allows for absolute positioning of child elements if needed */
+    width: 100%; /* Ensures it takes the full width of the screen */
+    height: 70vh; /* Sets the height to the full viewport height */
+    overflow: hidden; /* Ensures that the image doesn't overflow its container */
+}
+
+.job1-image img {
+    position: absolute; /* Positions the image absolutely within the container */
+    top: 50%; /* Centers the image vertically */
+    left: 50%; /* Centers the image horizontally */
+    width: auto; /* Allows the width to adjust */
+    height: 100%; /* Fills the height of the container */
+    min-width: 100%; /* Ensures it covers the width fully */
+    transform: translate(-50%, -50%); /* Centers the image */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+
+
+/*job2-bg-image*/
+.job2-image {
+    position: relative; /* Allows for absolute positioning of child elements if needed */
+    width: 100%; /* Ensures it takes the full width of the screen */
+    height: 70vh; /* Sets the height to the full viewport height */
+    overflow: hidden; /* Ensures that the image doesn't overflow its container */
+}
+
+.job2-image img {
+    position: absolute; /* Positions the image absolutely within the container */
+    top: 50%; /* Centers the image vertically */
+    left: 50%; /* Centers the image horizontally */
+    width: auto; /* Allows the width to adjust */
+    height: 100%; /* Fills the height of the container */
+    min-width: 100%; /* Ensures it covers the width fully */
+    transform: translate(-50%, -50%); /* Centers the image */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+
+
+/*job3-bg-image*/
+.job3-image {
+    position: relative; /* Allows for absolute positioning of child elements if needed */
+    width: 100%; /* Ensures it takes the full width of the screen */
+    height: 70vh; /* Sets the height to the full viewport height */
+    overflow: hidden; /* Ensures that the image doesn't overflow its container */
+}
+
+.job3-image img {
+    position: absolute; /* Positions the image absolutely within the container */
+    top: 50%; /* Centers the image vertically */
+    left: 50%; /* Centers the image horizontally */
+    width: auto; /* Allows the width to adjust */
+    height: 100%; /* Fills the height of the container */
+    min-width: 100%; /* Ensures it covers the width fully */
+    transform: translate(-50%, -50%); /* Centers the image */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+
+
+/*job4-bg-image*/
+.job4-image {
+    position: relative; /* Allows for absolute positioning of child elements if needed */
+    width: 100%; /* Ensures it takes the full width of the screen */
+    height: 70vh; /* Sets the height to the full viewport height */
+    overflow: hidden; /* Ensures that the image doesn't overflow its container */
+}
+
+.job4-image img {
+    position: absolute; /* Positions the image absolutely within the container */
+    top: 50%; /* Centers the image vertically */
+    left: 50%; /* Centers the image horizontally */
+    width: auto; /* Allows the width to adjust */
+    height: 100%; /* Fills the height of the container */
+    min-width: 100%; /* Ensures it covers the width fully */
+    transform: translate(-50%, -50%); /* Centers the image */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+
+
+/*job5-bg-image*/
+.job5-image {
+    position: relative; /* Allows for absolute positioning of child elements if needed */
+    width: 100%; /* Ensures it takes the full width of the screen */
+    height: 70vh; /* Sets the height to the full viewport height */
+    overflow: hidden; /* Ensures that the image doesn't overflow its container */
+}
+
+.job5-image img {
+    position: absolute; /* Positions the image absolutely within the container */
+    top: 50%; /* Centers the image vertically */
+    left: 50%; /* Centers the image horizontally */
+    width: auto; /* Allows the width to adjust */
+    height: 100%; /* Fills the height of the container */
+    min-width: 100%; /* Ensures it covers the width fully */
+    transform: translate(-50%, -50%); /* Centers the image */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+
+/*job6-bg-image*/
+.job6-image {
+    position: relative; /* Allows for absolute positioning of child elements if needed */
+    width: 100%; /* Ensures it takes the full width of the screen */
+    height: 70vh; /* Sets the height to the full viewport height */
+    overflow: hidden; /* Ensures that the image doesn't overflow its container */
+}
+
+.job6-image img {
+    position: absolute; /* Positions the image absolutely within the container */
+    top: 50%; /* Centers the image vertically */
+    left: 50%; /* Centers the image horizontally */
+    width: auto; /* Allows the width to adjust */
+    height: 100%; /* Fills the height of the container */
+    min-width: 100%; /* Ensures it covers the width fully */
+    transform: translate(-50%, -50%); /* Centers the image */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+
+
+/*job7-bg-image*/
+.job7-image {
+    position: relative; /* Allows for absolute positioning of child elements if needed */
+    width: 100%; /* Ensures it takes the full width of the screen */
+    height: 70vh; /* Sets the height to the full viewport height */
+    overflow: hidden; /* Ensures that the image doesn't overflow its container */
+}
+
+.job7-image img {
+    position: absolute; /* Positions the image absolutely within the container */
+    top: 50%; /* Centers the image vertically */
+    left: 50%; /* Centers the image horizontally */
+    width: auto; /* Allows the width to adjust */
+    height: 100%; /* Fills the height of the container */
+    min-width: 100%; /* Ensures it covers the width fully */
+    transform: translate(-50%, -50%); /* Centers the image */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+
+
+/*job8-bg-image*/
+.job8-image {
+    position: relative; /* Allows for absolute positioning of child elements if needed */
+    width: 100%; /* Ensures it takes the full width of the screen */
+    height: 70vh; /* Sets the height to the full viewport height */
+    overflow: hidden; /* Ensures that the image doesn't overflow its container */
+}
+
+.job8-image img {
+    position: absolute; /* Positions the image absolutely within the container */
+    top: 50%; /* Centers the image vertically */
+    left: 50%; /* Centers the image horizontally */
+    width: auto; /* Allows the width to adjust */
+    height: 100%; /* Fills the height of the container */
+    min-width: 100%; /* Ensures it covers the width fully */
+    transform: translate(-50%, -50%); /* Centers the image */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+
+/*job9-bg-image*/
+.job9-image {
+    position: relative; /* Allows for absolute positioning of child elements if needed */
+    width: 100%; /* Ensures it takes the full width of the screen */
+    height: 70vh; /* Sets the height to the full viewport height */
+    overflow: hidden; /* Ensures that the image doesn't overflow its container */
+}
+
+.job9-image img {
+    position: absolute; /* Positions the image absolutely within the container */
+    top: 50%; /* Centers the image vertically */
+    left: 50%; /* Centers the image horizontally */
+    width: auto; /* Allows the width to adjust */
+    height: 100%; /* Fills the height of the container */
+    min-width: 100%; /* Ensures it covers the width fully */
+    transform: translate(-50%, -50%); /* Centers the image */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+/*services*/
+.wrapper {
+    background: linear-gradient(to right, #1e1e2f, #3a3a52);
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.inner {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between; /* Space items evenly */
+    gap: 20px; /* Space between boxes */
+}
+
+.rotoscoping-box{
+	flex: 1 1 calc(45% - 20px); /* Two boxes per row with gap */
+    margin: 10px 0; /* Vertical spacing */
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    min-height: 950px; /* Set a minimum height */
+
+}
+
+.paint-box,
+.matchmove-box,
+.compo-box {
+    flex: 1 1 calc(45% - 20px); /* Two boxes per row with gap */
+    margin: 10px 0; /* Vertical spacing */
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    min-height: 150px; /* Set a minimum height */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .rotoscoping-box,
+    .paint-box,
+    .matchmove-box,
+    .compo-box {
+        flex: 1 1 100%; /* Full width on smaller screens */
+        margin: 10px 0; /* Maintain vertical spacing */
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+}
+
+
+.rotoscoping-box:hover,
+.paint-box:hover,
+.matchmove-box:hover,
+.compo-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.scrolling-heading {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #ffcc00;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.scrolling-paragraph {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #ffffff;
+    margin: 10px 0;
+    padding: 0 10px; /* Added padding for better readability on small screens */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+b {
+    color: #ffcc00;
+}
+
+.roto, .paint, .match, .compo {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .scrolling-heading {
+        font-size: 2em;
+    }
+
+    .scrolling-paragraph {
+        font-size: 1em;
+    }
+
+    .rotoscoping-box,
+    .paint-box,
+    .matchmove-box,
+    .compo-box {
+        padding: 15px; /* Reduced padding for smaller screens */
+        margin-bottom: 30px; /* Adjusted spacing */
+    }
+}
+
+/*workflow*/
+.wra {
+    display: flex;
+    justify-content: space-between; /* Space between text and image */
+    align-items: flex-start; /* Align items at the start of the container */
+    padding: 80px; /* Add some padding */
+    background-color: #1a1a1a; /* Background color for contrast */
+}
+
+.in {
+    flex: 1; /* Allow the text section to take available space */
+    max-width: 600px; /* Optional: Limit the max width of the text section */
+    color: white; /* Text color */
+}
+
+.se {
+    margin-bottom: 20px; /* Space between sections */
+}
+
+h3 {
+    margin-bottom: 20px; /* Space below the main heading */
+}
+
+h5.gen-head1 {
+    margin-top: 20px; /* Space above subheadings */
+}
+
+.im {
+    flex: 0 0 400px; /* Fixed width for the image container */
+    text-align: right; /* Align image to the right */
+}
+
+.im img {
+	margin-top: 20rem;
+	margin-right: 30rem;
+    max-width: 80%; /* Responsive image */
+    height: 100vh; /* Maintain aspect ratio */
+}
+
+
+/*career*/
+.ca {
+	padding: 20px; /* Add padding around the section */
+   /* Dark background for contrast */
+    color: white; /* Text color */
+    max-width: 700px; /* Limit max width for readability */
+    margin: 60px 0; /* Space above and below, no horizontal centering */
+    text-align: left; /* Align text to the left */
+    border-radius: 8px; /* Optional: Slightly rounded corners */
+    position: relative; /* Ensure proper layout */
+    left: 2rem; /* Align to the left side */
+	top: -10rem;
+	height: 30vh;
+}
+
+
+
+.car {
+
+    padding: 10px; /* Add padding around the section */
+     /* Dark background for contrast */
+    color: white; /* Text color */
+    max-width: 800px; /* Limit max width for readability */
+    margin: 10px auto; /* Center the section horizontally with space above and below */
+    text-align: center; /* Align text to the left */
+    border-radius: 8px; /* Optional: Slightly rounded corners */
+}
+
+
+.care {
+    padding: 10px; /* Add padding around the section */
+     /* Dark background for contrast */
+    color: white; /* Text color */
+    max-width: 800px; /* Limit max width for readability */
+    margin: 10px auto; /* Center the section horizontally with space above and below */
+    text-align: center; /* Align text to the left */
+    border-radius: 8px; /* Optional: Slightly rounded corners */
+}
+
+
+.me {
+    background-color: hsl(0, 3%, 23%); /* Dark background for contrast */
+    padding: 20px; /* Add padding around the section */
+    border-radius: 20px; /* Rounded corners */
+	background-image: url('assets\images1\career.webp');
+}
+
+h3 {
+    color: #ffffff; /* White color for headings */
+    font-size: 24px; /* Larger font size for emphasis */
+    margin-bottom: 10px; /* Space below headings */
+}
+
+.toggle-paragraph {
+    color: #cccccc; /* Light gray text for paragraphs */
+    font-size: 16px; /* Standard font size for readability */
+    line-height: 1.5; /* Improve line spacing */
+    margin-bottom: 20px; /* Space below paragraphs */
+}
+
+.toggle-paragraph:hover {
+    color: #ffffff; /* Change color on hover for interactivity */
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+/* Optional: Add a hover effect for the whole section */
+.me:hover {
+    background-color: #333333; /* Slightly lighter background on hover */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+.mee{
+	text-align: center;
+}
