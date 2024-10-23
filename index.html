@@ -20,7 +20,7 @@
 	<body class="landing is-preload">
 
 		<!-- Page Wrapper -->
-		 
+		
 			<div id="page-wrapper">
 
 				<!-- Header -->
@@ -33,7 +33,6 @@
 						 </div>-->
 						 
 						 <nav>
-							
 							<ul class="nav-links">
 								<li>
 									<a class="active" href="#home">What We Create</a>
@@ -68,8 +67,10 @@
 
 
 							<!-- Hamburger Menu Icon -->
-							<a href="javascript:void(0);" class="menu-icon" onclick="toggleMenu()">&#9776;</a>
-							
+		
+	<a href="javascript:void(0);" class="menu-icon" onclick="toggleMenu()">&#9776;</a>
+<a href="javascript:void(0);" class="close-icon" style="display:none;" onclick="toggleMenu()">&times;</a>
+
 						</nav>
 						
 							
@@ -94,12 +95,22 @@
 <script>
 	function toggleMenu() {
     var links = document.querySelector(".nav-links");
+    var menuIcon = document.querySelector(".menu-icon");
+    var closeIcon = document.querySelector(".close-icon");
+
     if (links.style.display === "flex") {
+        // Hide the menu and show the hamburger icon
         links.style.display = "none";
+        menuIcon.style.display = "block";  // Show hamburger icon
+        closeIcon.style.display = "none";  // Hide close icon
     } else {
+        // Show the menu and hide the hamburger icon
         links.style.display = "flex";
+        menuIcon.style.display = "none";   // Hide hamburger icon
+        closeIcon.style.display = "block"; // Show close icon
     }
 }
+
 
 
 
@@ -116,14 +127,33 @@
 
 				<section id="banner">
 					<div class="inner">
-	 <h1 class="tlt">Connect Life  <span class="vf"><i>VF</span><span class="moonlight">X</i></span></h1>
+	 <h1 class="tlt">Connect Life  <span class="vf">VF</span><span class="moonlight"><i>X</i></span></h1>
 				<p>Bringing Imagination to Life, One pixel at a Time</p>
 					  
-					  <a href="#one" class="more scrolly">Know More</a>
+					  <a href="#punch-para" class="more scrolly">Know More</a>
 					</div>
 				  </section>
 
-				<!-- One -->
+
+				  <!--first para-->
+<section id="punch-para">
+	<div class="punch">
+		<h1 class="punch-p">Transforming Vision into Reality.</h1>
+		<p class="punch-text">
+			At Connect life vfx, we specialize in bringing imagination to life through
+			 cutting-edge visual effects. With a focus on precision editing, seamless 
+			 matchmoving, and expert paintwork, we elevate storytelling to new heights. 
+			 Whether it's enhancing cinematic scenes or perfecting the finest details in 
+			 post-production, our team of skilled VFX artists is dedicated to delivering 
+			 visually stunning and technically flawless results. From concept to final cut, 
+			 we’re here to craft the extraordinary.
+			 
+		</p>
+	</div>
+</section>
+
+
+				<!-- second para -->
 					<section id="one" class="wrapper style1 special">
 						<div class="inner">
 							<header class="major">
@@ -150,9 +180,10 @@
 									<div class="text">		
 		At <b style="color: #A0AEC0;"> Connect Life VFX </b> , we see every project as a change to create something extraordinary.
 		 Our team combines creativity, technical skills, and cinematic storytelling to push
-		  the limits of visual effects (VFX). <br><br>
+		  the limits of visual effects (VFX). 
 		 We don't just offer VFX services-we craft immersive experiences that engage audiences 
-		  and enhance your story. Our <b style="color: #A0AEC0;"> man-day pricing </b>ensures transparency,fairness,and high-quality results.
+		  and enhance your story. Our <b style="color: #A0AEC0;"> man-day pricing </b>
+		  ensures transparency,fairness,and high-quality results.
 									</div>
 								</div>
 					</header>
@@ -161,36 +192,155 @@
 				<!-- Two -->
 				<article id="three-img" style="background-color: #0C0F26  ;">
 					<header class="head-3">
-						<center><h2><br>Why choose us?</h2></center>
+						<center><h2>Why choose us?</h2></center>
 						
 						<div class="images-container">
 							<div class="first-img">
-							<br>	<div class="only-text">Experience & Expertise</div><br>
+							<br>	<div class="only-text">Rotoscoping</div><br>
 			<img src="./images1/experience and expertise.jpg" alt="exp" class="small-img"> <br>
-								<p style="color: #A0AEC0;">Expertise in VFX is not just about technical skill; 
-									it’s the alchemy of precision that 
-									brings visions to life.</p>
+								<p style="color: #A0AEC0;">
+									Rotoscoping breathes life into frames, turning motion into seamless artistry.
+								</p>
 							</div>
 							
 							<div class="second-img">
-								<br><div class="only-text">Innovation</div><br>
+								<br><div class="only-text">Paint</div><br>
 								<img src="./images1/innovation.jpg" alt="innov"><br>
-								<p style="color: #A0AEC0;">Where technology meets creativity, VFX innovation breathes
-									 life into the extraordinary</p>
+								<p style="color: #A0AEC0;">
+									With every stroke, VFX paintwork turns imperfection into cinematic perfection.
+								</p>
 								
 							</div>
 							<div class="third-img">
-							<br>	<div class="only-text">Collaboration</div>	<br>
+							<br>	<div class="only-text">Matchmove</div>	<br>
 								<img src="./images1/collab.jpg" alt="collab"><br>
-						<p style="color: #A0AEC0;">In VFX, collaboration is the key—each artist a pixel,
-							 together creating the masterpiece.</p>
+						<p style="color: #A0AEC0;">
+							Matchmove is the bridge between reality and the virtual, aligning worlds with precision.
+						</p>
 							</div><br>
+							<div class="second-img">
+								<br><div class="only-text">Compositing</div><br>
+								<img src="./images1/innovation.jpg" alt="innov"><br>
+								<p>
+									Compositing weaves layers of reality and illusion, crafting a seamless visual story.
+								</p>
+							</div>
 						</div><br>
-					<br><button class="more"><a href="knowmore.html"> Know more</a></button><br><br>
+			<button class="more-know"><a href="knowmore.html"> Know more</a></button><br><br><br>
 					</header>
 				</article>
 				
+
+				<!--connect life partner companies-->
+				<section>
+					<div class="movement" style="background-color:  #1f2944 ;">
+						<center><h2><b>CONNECT LIFE PROUD TO WORK WITH</b></h2></center><br>
+						
+						<div class="particles">
+							<div class="particle"></div>
+							<div class="particle"></div>
+							<div class="particle"></div>
+							<div class="particle"></div>
+							<div class="particle"></div>
+						</div>
+
+					<div class="image-slider">
+						<div class="image-track">
+
 				
+				<img src="./assets/css/images/walt.jpg" alt="walt" width="100px" height="100px">
+					<img src="./assets/css/images/warner.jpg" alt="walt" width="100px" height="100px">
+					<img src="./assets/css/images/netflix.jpg" alt="walt" width="100px" height="100px">
+					<img src="./assets/css/images/marvel.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/HBO.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/amazon.jpg"alt="walt" width="100px" height="100px">
+					<img src="./assets/css/images/20th.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/pixar.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/amblin.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/universe.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/bad.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/turtle.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/light.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/kia.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/annapurna.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/sony.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/epic.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/legendry.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/paramount.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/firaxis.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/weta.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/private.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/amazon1 (1).jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/utube.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/apple.jpg"alt="walt" width="120px" height="100px">
+			
+			<!--Duplicate images for loop-->
+			<img src="./assets/css/images/walt.jpg" alt="walt" width="100px" height="100px">
+					<img src="./assets/css/images/warner.jpg" alt="walt" width="100px" height="100px">
+					<img src="./assets/css/images/netflix.jpg" alt="walt" width="100px" height="100px">
+					<img src="./assets/css/images/marvel.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/HBO.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/amazon.jpg"alt="walt" width="100px" height="100px">
+					<img src="./assets/css/images/20th.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/pixar.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/amblin.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/universe.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/bad.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/turtle.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/light.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/kia.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/annapurna.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/sony.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/epic.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/legendry.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/paramount.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/firaxis.jpg"alt="walt" width="120px" height="100px">
+					<img src="./assets/css/images/weta.jpg"alt="walt" width="120px" height="100px">
+	<img src="./assets/css/images/private.jpg"alt="walt" width="120px" height="100px">
+				</div>
+		</div>
+		</div>
+			</section>
+
+						
+<!--Code for book an appointment-->
+
+<section id="cta" class="wrapper style4" style="background-color:#141b2a;">
+	<div class="inner">
+		<div class="btn-one"><br>
+			<button><a href="contact.html">Book a Meeting</a></button><br><br>
+		</div>
+	</div>
+</section>
+
+		
+				<!-- Our Core Partner Company Code -->
+				<article class="core-comp" style="background-color: #29375a; padding: 20px;">
+					<section id="partner">
+						<div class="inner">
+							<center><h2><b>Our Core Partner Company</b></h2></center>
+							<div class="cli-company">
+								<div class="part-img block">
+									<img src="./assets/images1/conn.jpg" alt="cl1" class="hover-image">
+									<br><strong><a href="https://www.connectlifesolutions.com/">Connect Life Solution</a></strong><br>
+								</div>
+								<div class="cl2 block">
+									<img src="./assets/images1/conn1.png" alt="cl2" class="hover-image">
+									<br><strong><a href="https://www.connectlife.org/">Connect Life Foundation </a></strong><br>
+								</div>
+								<div class="cl3 block">
+									<img src="./assets/images1/cl3.png" alt="cl3" class="hover-image">
+									<br><strong><a href="https://www.cls.global/">CLS Global</a></strong><br>
+								</div>
+							</div>
+						</div>
+					</section>
+				</article>
+
+
+
+
+
 				<!--Section for before and after effects-->
 			<!--	<br><div class="splitview skewed">
 					<div class="panel bottom">
@@ -223,8 +373,8 @@
 			
 				
 
-				<!-- Three -->
-					<section id="three" class="wrapper style3 special">
+				<!-- Three our vision code -->
+			<!--		<section id="three" class="wrapper style3 special">
 						<div class="inner">
 							<header class="major">
 					
@@ -297,10 +447,10 @@
 							</ul>
 						</div>
 					
-					</section>
+					</section>-->
 
-				<!-- CTA -->
-					<section id="cta" class="wrapper style4" style="background-color:  #29375a;">
+				<!-- CTA - our mission code
+					<section id="cta" class="wrapper style4" style="background-color:  #0C0F26;">
 						<div class="inner">
 							<header>
 								<h2>Our Mission</h2>
@@ -316,103 +466,14 @@
 								<li><a href="contact.html" class="button fit">Conatct-Us</a></li>
 							</ul>
 						</div>
-					</section>
+					</section>->
 
-					<section>
-						<div class="movement" style="background-color:  #1f2944 ;">
-							<center><h2><b>CONNECT LIFE PROUD TO WORK WITH</b></h2></center><br>
-							
-							<div class="particles">
-								<div class="particle"></div>
-								<div class="particle"></div>
-								<div class="particle"></div>
-								<div class="particle"></div>
-								<div class="particle"></div>
-							</div>
+			
 
-						<div class="image-slider">
-							<div class="image-track">
-
-					
-					<img src="./assets/css/images/walt.jpg" alt="walt" width="100px" height="100px">
-						<img src="./assets/css/images/warner.jpg" alt="walt" width="100px" height="100px">
-						<img src="./assets/css/images/netflix.jpg" alt="walt" width="100px" height="100px">
-						<img src="./assets/css/images/marvel.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/HBO.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/amazon.jpg"alt="walt" width="100px" height="100px">
-						<img src="./assets/css/images/20th.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/pixar.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/amblin.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/universe.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/bad.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/turtle.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/light.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/kia.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/annapurna.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/sony.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/epic.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/legendry.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/paramount.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/firaxis.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/weta.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/private.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/amazon1 (1).jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/utube.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/apple.jpg"alt="walt" width="120px" height="100px">
-				
-				<!--Duplicate images for loop-->
-				<img src="./assets/css/images/walt.jpg" alt="walt" width="100px" height="100px">
-						<img src="./assets/css/images/warner.jpg" alt="walt" width="100px" height="100px">
-						<img src="./assets/css/images/netflix.jpg" alt="walt" width="100px" height="100px">
-						<img src="./assets/css/images/marvel.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/HBO.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/amazon.jpg"alt="walt" width="100px" height="100px">
-						<img src="./assets/css/images/20th.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/pixar.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/amblin.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/universe.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/bad.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/turtle.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/light.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/kia.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/annapurna.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/sony.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/epic.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/legendry.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/paramount.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/firaxis.jpg"alt="walt" width="120px" height="100px">
-						<img src="./assets/css/images/weta.jpg"alt="walt" width="120px" height="100px">
-		<img src="./assets/css/images/private.jpg"alt="walt" width="120px" height="100px">
-					</div>
-			</div>
-			</div>
-				</section>
-
-				<!-- Our Core Partner Company Code -->
-<article class="core-comp" style="background-color: #29375a; padding: 20px;">
-    <section id="partner">
-        <div class="inner">
-            <center><h2><b>Our Core Partner Company</b></h2></center>
-            <div class="cli-company">
-                <div class="part-img block">
-                    <img src="./assets/images1/conn.jpg" alt="cl1" class="hover-image">
-                    <br><strong><a href="https://www.connectlifesolutions.com/">Connect Life Solution</a></strong><br>
-                </div>
-                <div class="cl2 block">
-                    <img src="./assets/images1/conn1.png" alt="cl2" class="hover-image">
-                    <br><strong><a href="https://www.connectlife.org/">Connect Life Foundation </a></strong><br>
-                </div>
-                <div class="cl3 block">
-                    <img src="./assets/images1/cl3.png" alt="cl3" class="hover-image">
-                    <br><strong><a href="https://www.cls.global/">CLS Global</a></strong><br>
-                </div>
-            </div>
-        </div>
-    </section>
-</article>
-
-	<!--Code for the highlight para -->	
-	<div class="quote-slider" style="background-color: #1f2944; position: relative;"> <!-- Add position: relative -->
+	<!-Code for the highlight para -->
+	
+	<!--
+	<div class="quote-slider" style="background-color: #1f2944; position: relative;"> 
 		<div class="arrow left-arrow" onclick="prevSlide()" aria-label="Previous Slide" style="color: white; position: absolute; top: 50%; left: 10px; transform: translateY(-50%);">&#10094;</div>
 		<div class="quotes">
 			<div class="quote-item active">
@@ -441,21 +502,10 @@
 		</div>
 		<div class="arrow right-arrow" onclick="nextSlide()" aria-label="Next Slide" style="color: white; position: absolute; top: 50%; right: 10px; transform: translateY(-50%);">&#10095;</div>
 	</div>
-	
+-->
 	
 			<!-- Add more quote items as needed -->
 		<!--code for images-->
-		
-<!--Code for book an appointment-->
-
-<section id="cta" class="wrapper style4" style="background-color:#141b2a;">
-	<div class="inner">
-		<div class="btn-one"><br>
-			<button><a href="contact.html">Book a Meeting</a></button><br><br>
-		</div>
-	</div>
-</section>
-
 
 <!--Code for logo evelving with circle-->
 <div class="circle-container">
