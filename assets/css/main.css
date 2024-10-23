@@ -3778,7 +3778,7 @@ ul.nav-links li a {
     position: absolute; /* Position it below the main menu */
     top: 100%; /* Align to the bottom of the main item */
     left: 0; /* Align to the left */
-    background-color: transparent; /* Set your desired background color if necessary */
+    background-color: #3a4750; /* submenu hover color background color if necessary */
    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Optional: shadow for depth */
     z-index: 100; /* Ensure it appears above other content */
     list-style-type: none; /* No bullets for sub-menu items */
