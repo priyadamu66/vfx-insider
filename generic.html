@@ -20,28 +20,96 @@
 
 				<!-- Header -->
 					<header id="header">
-						<div class="logo">
+					<!--	<div class="logo">
 							
 							<img src="./assets/css/images/logo.png" alt="logo" width="45px" height="45px">
 										 </div>
-						<h1><a href="index.html">connectlifevfx</a></h1>
+						<h1><a href="index.html">connectlifevfx</a></h1>-->
+						 
 						<nav id="nav">
-							<ul>
-								
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="index.html">What we Create</a></li>
-											<li><a href="generic.html">Who we Are</a></li>
-											<li><a href="elements.html">Join Our Crew</a></li>
-											<li><a href="career.html">Connect With Us</a></li>
-										</ul>
-									</div>
+							<ul class="nav-links">
+								<li>
+									<a class="active" href="#home">What We Create</a>
+									<ul class="submenu">
+										<li><a href="index.html">Home</a></li>
+										<li><a href="generic.html">Workflow</a></li>
+										<li><a href="elements.html">Our Services</a></li>
+									</ul>
 								</li>
-								
+								<li>
+									<a href="#news">Who We Are</a>
+									<ul class="submenu">
+										<li><a href="about.html">About-Us</a></li>
+									<li><a href="#one">Our Goal</a></li>
+								</ul>
+								</li>
+								<li>
+									<a href="#contact">Join Our Crew</a>
+									<ul class="submenu">
+										<li><a href="career.html">Career</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#about">Connect With Us</a>
+									<ul class="submenu">
+										<li><a href="contact.html">Conatct-Us</a></li>
+									</ul>
+								</li>
 							</ul>
+							
+
+
+
+							<!-- Hamburger Menu Icon -->
+		
+	<a href="javascript:void(0);" class="menu-icon" onclick="toggleMenu()">&#9776;</a>
+<a href="javascript:void(0);" class="close-icon" style="display:none;" onclick="toggleMenu()">&times;</a>
+
 						</nav>
+						
+							
+            <!-- Hamburger Menu Icon -->
+			 
+            <a href="#menu" class="menuToggle"><span></span></a>
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html">What We Create</a></li>
+                    <li><a href="generic.html">Who We are</a></li>
+                    <li><a href="elements.html">Join Our Crew</a></li>
+                    <li><a href="career.html">Connect With Us</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <!-- Close button for mobile menu -->
+               <span class="close-icon" onclick="toggleMenu()">&times;</span>
+            </div>
+        </li>
+    </ul>
+</nav>
+<script>
+	function toggleMenu() {
+    var links = document.querySelector(".nav-links");
+    var menuIcon = document.querySelector(".menu-icon");
+    var closeIcon = document.querySelector(".close-icon");
+
+    if (links.style.display === "flex") {
+        // Hide the menu and show the hamburger icon
+        links.style.display = "none";
+        menuIcon.style.display = "block";  // Show hamburger icon
+        closeIcon.style.display = "none";  // Hide close icon
+    } else {
+        // Show the menu and hide the hamburger icon
+        links.style.display = "flex";
+        menuIcon.style.display = "none";   // Hide hamburger icon
+        closeIcon.style.display = "block"; // Show close icon
+    }
+}
+
+
+
+
+
+</script>
 					</header>
 
 				<!-- Main -->
