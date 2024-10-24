@@ -6442,7 +6442,7 @@ svg {
  .generic-img {
     position: relative; /* Allows for absolute positioning of child elements if needed */
     width: 100%; /* Ensures it takes the full width of the screen */
-    height: 50vh; /* Sets the height to the full viewport height */
+    height: 60vh; /* Sets the height to the full viewport height */
     overflow: hidden; /* Ensures that the image doesn't overflow its container */
 }
 
@@ -6454,14 +6454,14 @@ svg {
     height: 100%; /* Fills the height of the container */
     min-width: 100%; /* Ensures it covers the width fully */
     transform: translate(-50%, -50%); /* Centers the image */
-    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    object-fit: fill; /* Ensures the image covers the entire area without distortion */
 }
 
 /*services-bg-image*/
 .services-img {
     position: relative; /* Allows for absolute positioning of child elements if needed */
     width: 100%; /* Ensures it takes the full width of the screen */
-    height: 50vh; /* Sets the height to the full viewport height */
+    height: 60vh; /* Sets the height to the full viewport height */
     overflow: hidden; /* Ensures that the image doesn't overflow its container */
 }
 
@@ -6473,7 +6473,7 @@ svg {
     height: 100%; /* Fills the height of the container */
     min-width: 100%; /* Ensures it covers the width fully */
     transform: translate(-50%, -50%); /* Centers the image */
-    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    object-fit: fill; /* Ensures the image covers the entire area without distortion */
 }
   
 
@@ -6481,7 +6481,7 @@ svg {
 .careers-img {
     position: relative; /* Allows for absolute positioning of child elements if needed */
     width: 100%; /* Ensures it takes the full width of the screen */
-    height: 50vh; /* Sets the height to the full viewport height */
+    height: 60vh; /* Sets the height to the full viewport height */
     overflow: hidden; /* Ensures that the image doesn't overflow its container */
 }
 
@@ -6493,14 +6493,14 @@ svg {
     height: 100%; /* Fills the height of the container */
     min-width: 100%; /* Ensures it covers the width fully */
     transform: translate(-50%, -50%); /* Centers the image */
-    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    object-fit: fill; /* Ensures the image covers the entire area without distortion */
 }
 
 /*about-bg-image*/
 .about-img {
     position: relative; /* Allows for absolute positioning of child elements if needed */
     width: 100%; /* Ensures it takes the full width of the screen */
-    height: 50vh; /* Sets the height to the full viewport height */
+    height: 60vh; /* Sets the height to the full viewport height */
     overflow: hidden; /* Ensures that the image doesn't overflow its container */
 }
 
@@ -6512,14 +6512,14 @@ svg {
     height: 100%; /* Fills the height of the container */
     min-width: 100%; /* Ensures it covers the width fully */
     transform: translate(-50%, -50%); /* Centers the image */
-    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    object-fit: fill; /* Ensures the image covers the entire area without distortion */
 }
 
 /*contact-bg-image*/
 .contact-img {
     position: relative; /* Allows for absolute positioning of child elements if needed */
     width: 100%; /* Ensures it takes the full width of the screen */
-    height: 80vh; /* Sets the height to the full viewport height */
+    height: 60vh; /* Sets the height to the full viewport height */
     overflow: hidden; /* Ensures that the image doesn't overflow its container */
 }
 
@@ -6531,7 +6531,7 @@ svg {
     height: 100%; /* Fills the height of the container */
     min-width: 100%; /* Ensures it covers the width fully */
     transform: translate(-50%, -50%); /* Centers the image */
-    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    object-fit: fill; /* Ensures the image covers the entire area without distortion */
 }
 
 
