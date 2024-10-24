@@ -170,7 +170,7 @@ format('woff2');
         margin-top: -30%;
         text-align: center; /* Center align text on mobile */
         left: 0; /* Ensure no extra offset for mobile */
-        margin-left: 0; /* Reset margin to align properly */
+        margin-left: 8%; /* Reset margin to align properly */
         margin-right: 0;
     }
 	.land-image{
@@ -4077,6 +4077,31 @@ ul.nav-links li a {
 }
 
 /*about page header logo*/
+/*generic navbar logo*/
+
+.gen-head{
+	background-color: #0C0F26;
+	padding: 30px;
+
+}
+.gen-logo img{
+	margin-top: -2%;
+    width: 200px;  /* Adjust as needed */
+    height: 50px;  /* Adjust as needed */
+	max-width: none;  /* Prevents the image from being constrained */
+    max-height: none; 
+
+}
+@media (max-width: 736px) {
+    .gen-logo img {
+		width: 135px;
+		height: 33px;
+       margin-top: -5%;
+	   margin-left: -2%;
+    }
+
+}
+
 
 /* Header */
 
@@ -5221,7 +5246,7 @@ strong {
 	
 	.menu-icon {
 		display: flex; /* Show menu icon on mobile */
-		margin-top: -2%;
+		margin-top: 10%;
 		margin-right: auto; /* Remove the large right margin */
 		margin-left: -100%; /* Move the menu icon towards the left */
 	}

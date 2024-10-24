@@ -8,6 +8,30 @@
     font-size: 16px;
 }
 
+.gen-head{
+	background-color: #0C0F26;
+	padding: 30px;
+
+}
+.gen-logo img{
+	margin-top: -2%;
+    width: 200px;  /* Adjust as needed */
+    height: 50px;  /* Adjust as needed */
+	max-width: none;  /* Prevents the image from being constrained */
+    max-height: none; 
+
+}
+@media (max-width: 736px) {
+    .gen-logo img {
+		width: 135px;
+		height: 33px;
+       margin-top: -5%;
+	   margin-left: -2%;
+    }
+
+}
+
+
 .job1 {
     width: 900px;
     height: 200pxpx;
